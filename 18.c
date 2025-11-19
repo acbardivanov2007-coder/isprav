@@ -39,12 +39,11 @@ int main()
             printf("Ошибка! Выберите a, b, c, d или q!\n\n");
             continue;
         }
-        if (bukva == EOF) {
+        if (bukva == EOF){
             return 0;
         }
-        while(getchar()!='\n'){
-          return 0;
-        }
+        while(getchar()!='\n');
+        continue;
         // Устанавливаем тарифную ставку
         switch (bukva) {
             case 'a':
