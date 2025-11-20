@@ -16,7 +16,7 @@ int main()
     float chasy, stavka;
     float zarplata, nalogi, chistaya;
     float sverhyroch_chasy, sverhyroch_oplata;
-    while (1) {
+    while (bukva!=q) {
         // Выводим меню с буквами
         printf("Выберите тарифную ставку:\n");
         printf("a) $8.75/час\n");
